@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="static/Diseños/Img/Logo-background.ico"
+      type="image/x-icon"
+    />
+
+    <title>CoreCrypter</title>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="static/reset.css" />
+    <link rel="stylesheet" href="static/style.css" />
+    <link rel="stylesheet" href="static/encriptar.css" />
+    <link rel="stylesheet" href="static/animation.css" />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <div class="nav">
+      <a href="home.html" class="nav-logo">
+        <img
+          src="static/Diseños/Img/logo.png"
+          alt="Logo de CoreCrypter"
+          class="nav-logo-img"
+        />
+        <p>CoreCrypter</p>
+      </a>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <form>
+      <div class="content-container">
+
+        <div class="input-container">
+          <div class="input" >
+            <!-- <input tabindex="0" type="text" id="inputtext" autofocus/> -->
+            <textarea tabindex="0" autofocus id="inputtext" cols="30" rows="10"></textarea>
+          </div>
+          <div id="btn-container">
+             <button id="btn-encriptar" tabindex="0" type="button" onclick="escribirTextoEncriptado()">Encriptar</button>
+             <button id="btn-desencriptar" tabindex="0" type="button"  onclick="escribirTextoDesencriptado()">Desencriptar</button>
+          </div> 
+        </div>
+          
+          <div class="output-container">
+             <div class="output">
+              <p id="texto"></p>
+            </div>
+            <button id="btn-copiar" type="button" tabindex="0" onclick="copiar()">Copiar</button> 
+          </div>
+        
+      </div>
+    </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Curso</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://www.oracle.com/mx/education/oracle-next-education/"
+                  >ONE: Oracle Next Education</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/search?q=%23challengeonecodificador5"
+                  >#challengecodificador5</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Redes</h4>
+            <ul>
+              <li><a href="https://github.com/Bogaralex135">GitHub</a></li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/bogar-alejandro-vázquez-mata-479846256/"
+                  >Linkdin</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contacto</h4>
+            <ul>
+              <li><a href="#">alejandro.vazquez0624@gmail.com</a></li>
+              <li><a href="#">+52 55 8372 8183</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="static/script.js"></script>
+  </body>
+</html>
