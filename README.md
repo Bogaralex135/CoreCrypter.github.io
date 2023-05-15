@@ -1,7 +1,7 @@
 # CoreCrypter
 ## Challenge Codificador de ONE
 
-![Home de CoreCrypter](static\Diseños\Img\home.png)
+![Home de CoreCrypter](https://cdn.discordapp.com/attachments/1107475906727002174/1107475936171008011/funcion.png)
 
 ### Codificador
 
@@ -66,7 +66,7 @@ console.log(fraseDesencriptada);
  ### Función `copiar`
   Copia el contenido de texto del elemento "texto" al portapapeles.
 
-![Funcion de corecrypter](static\Diseños\Img\funcion.png)
+![Funcion de corecrypter](https://cdn.discordapp.com/attachments/1107475906727002174/1107475936473002075/home.png)
 
 
 [Figma] del proyecto
